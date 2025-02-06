@@ -1,6 +1,10 @@
 // import React from 'react'
 import HeroSection from '../components/HeroSection'
 import About from '../components/About'
+import Qualities from '../components/Qualities'
+import Menu from '../components/Menu'
+import WhoAreWe from '../components/WhoAreWe'
+import Team from '../components/Team'
 
 
 const Home = () => {
@@ -9,6 +13,10 @@ const Home = () => {
         <h1>
             <HeroSection/>
             <About/>
+            <Qualities/>
+            <Menu/>
+            <WhoAreWe/>
+            <Team/>
         </h1>
     </>
   )

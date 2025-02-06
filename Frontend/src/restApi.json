@@ -18,6 +18,12 @@
                 "image": "./fast_delivery.svg",
                 "title": "FAST DELIVERY",
                 "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis repellendus officia qui repellat." 
+            },
+            {
+                "id": 4,
+                "image": "./fast_delivery.svg",
+                "title": "AFFORDABLE",
+                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis repellendus officia qui repellat." 
             }
         ],
         "dishes": [

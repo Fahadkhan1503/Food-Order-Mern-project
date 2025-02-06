@@ -4,6 +4,7 @@ import { HiOutlineArrowRight } from "react-icons/hi";
 
 const About = () => {
   return (
+    <>
     <section className="about" id="about">
       <div className="container">
         <div className="banner">
@@ -27,10 +28,11 @@ const About = () => {
           </Link>
         </div>
         <div className="banner">
-          <img src="/about.png" alt="about" />
+          <img src="about.png" alt="about" />
         </div>
       </div>
     </section>
+    </>
   );
 };
 
