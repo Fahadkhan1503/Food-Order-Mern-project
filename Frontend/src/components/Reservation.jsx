@@ -1,25 +1,23 @@
-// import React from 'react'
+// import React from "react";
 import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 import axios from "axios";
 import { useState } from "react";
 import toast from "react-hot-toast";
 import { useNavigate } from "react-router-dom";
-
 const Reservation = () => {
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
   const [email, setEmail] = useState("");
   const [date, setDate] = useState("");
   const [time, setTime] = useState("");
-  const [phone, setPhone] = useState("0");
-
+  const [phone, setPhone] = useState(0);
   const navigate = useNavigate();
   const handleReservation = async (e) => {
     e.preventDefault();
     try {
       const { data } = await axios.post(
         "http://localhost:4000/api/v1/reservation/send",
-        { firstName, lastName, email, phone,date ,time  },
+        { firstName, lastName, email, phone, date, time },
         {
           headers: {
             "Content-Type": "application/json",
@@ -30,26 +28,25 @@ const Reservation = () => {
       toast.success(data.message);
       setFirstName("");
       setLastName("");
-      setDate("");
+      setPhone(0);
       setEmail("");
       setTime("");
-      setPhone("0");
+      setDate("");
       navigate("/success");
     } catch (error) {
       toast.error(error.response.data.message);
     }
   };
-
   return (
     <section className="reservation" id="reservation">
       <div className="container">
         <div className="banner">
-          <img src="/reservation.png" alt="reservation" />
+          <img src="/reservation.png" alt="res" />
         </div>
         <div className="banner">
           <div className="reservation_form_box">
             <h1>MAKE A RESERVATION</h1>
-            <p>For Futher Question, Please Call</p>
+            <p>For further Queries, Please Call</p>
             <form>
               <div>
                 <input
@@ -60,7 +57,7 @@ const Reservation = () => {
                 />
                 <input
                   type="text"
-                  placeholder="last Name"
+                  placeholder="Last Name"
                   value={lastName}
                   onChange={(e) => setLastName(e.target.value)}
                 />
@@ -68,13 +65,13 @@ const Reservation = () => {
               <div>
                 <input
                   type="date"
-                  placeholder="Date "
+                  placeholder="Date"
                   value={date}
                   onChange={(e) => setDate(e.target.value)}
                 />
                 <input
                   type="time"
-                  placeholder="time"
+                  placeholder="Time"
                   value={time}
                   onChange={(e) => setTime(e.target.value)}
                 />
@@ -82,7 +79,7 @@ const Reservation = () => {
               <div>
                 <input
                   type="email"
-                  placeholder="Email "
+                  placeholder="Email"
                   className="email_tag"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
@@ -92,14 +89,14 @@ const Reservation = () => {
                   placeholder="Phone"
                   value={phone}
                   onChange={(e) => setPhone(e.target.value)}
-                />  
+                />
               </div>
               <button type="submit" onClick={handleReservation}>
-                  RESERVE NOW{" "}
-                  <span>
-                    <HiOutlineArrowNarrowRight />
-                  </span>
-                </button>
+                RESERVE NOW{" "}
+                <spam>
+                  <HiOutlineArrowNarrowRight />
+                </spam>
+              </button>
             </form>
           </div>
         </div>
@@ -107,5 +104,4 @@ const Reservation = () => {
     </section>
   );
 };
-
 export default Reservation;
