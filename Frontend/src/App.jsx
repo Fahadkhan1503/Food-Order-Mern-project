@@ -5,9 +5,6 @@ import Home from "./Pages/Home";
 import Success from "./Pages/Success";
 import NotFound from "./Pages/NotFound";
 
-
-
-
 const App = () => {
   return <Router>
     <Routes>
