@@ -8,7 +8,6 @@ import Team from '../components/Team'
 import Reservation from '../components/Reservation'
 import Footer from '../components/Footer'
 
-
 const Home = () => {
   return (
     <>
@@ -20,7 +19,7 @@ const Home = () => {
             <WhoAreWe/>
             <Team/>
             <Reservation/>
-            <Footer/>
+            <Footer />
         </h1>
     </>
   )
