@@ -13,12 +13,12 @@ const About = () => {
             <p>Eat Till you Explode BOOM!</p>
           </div>
           <p className="mid">
-            At our place, we believe food isn’t just fuel—it’s an experience!
+            At our place, we believe food isn’t just fuel but it’s an experience!
             It’s about savoring every bite, every flavor, and every moment.
             Whether you are craving comfort food or adventurous eats, we serve up
             bold flavors, generous portions, and unforgettable meals. Come
-            hungry, leave happy—because here, food is life, and there’s always
-            room for one more bite!
+            hungry, leave happy because here, food is life, and there’s always
+            room for one more bite!!!
           </p>
           <Link to={"/"}>
             Explode Menu{""}

@@ -5,25 +5,25 @@
                 "id": 1,
                 "image": "./quality_food.svg",
                 "title": "QUALITY FOOD",
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis repellendus officia qui repellat." 
+                "description": "Our Quality is what you will not find anywhere else. Best Quality in the most economical price." 
             },
             {
                 "id": 2,
                 "image": "./super_taste.svg",
                 "title": "SUPER TASTE",
-                "description": "Lorem ipsum dolor sit amet consectetur, adipisicing sit amet elit. Sit voluptates quaerat pariatur." 
+                "description": "You will get the best experience in taste as we don't Compromise on our taste." 
             },
             {
                 "id": 3,
                 "image": "./fast_delivery.svg",
                 "title": "FAST DELIVERY",
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis repellendus officia qui repellat." 
+                "description": "Fresh food in the earliest time possible is our first priority for our customers." 
             },
             {
                 "id": 4,
                 "image": "./fast_delivery.svg",
-                "title": "AFFORDABLE",
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis repellendus officia qui repellat." 
+                "title": "AFFORDABLE PRICE",
+                "description": "The most exciting and tasty dishes in the most affordable price is what we offer here." 
             }
         ],
         "dishes": [
@@ -93,7 +93,7 @@
                 "id": 3,
                 "image": "./team_member_3.png",
                 "name": "YOUSUF NIAZ",
-                "designation": "CHOTU"
+                "designation": "General Manager"
             },
             {
                 "id": 4,

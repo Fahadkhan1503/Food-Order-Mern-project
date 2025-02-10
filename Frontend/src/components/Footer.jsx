@@ -7,16 +7,16 @@ const Footer = () => {
               <div className="banner">
                   <div className="left">FAHAM</div>
                       <div className="right">
-                      <p>xa gilshan karachi</p>
-                      <p>open at every hour 88 88</p>
+                      <p>Gulshan-e-Iqbal karachi</p>
+                      <p>Open from 6:00 PM to 11:00 PM</p>
                   </div>
               </div>
               <div className="banner">
                   <div className="left">
-                      <p>developed by coding fen</p>
+                      <p>Developed by FAHAM Brothers.</p>
                       </div>
                       <div className="right">
-                      <p>all rigths res by fen</p>
+                      <p>All rigths Reserved.</p>
                   </div>
               </div>
           </div>
