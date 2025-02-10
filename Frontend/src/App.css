@@ -162,7 +162,8 @@ nav svg {
   min-height: 80vh;
   justify-content: space-between;
   align-items: center;
-  background: url(/background.svg);
+  /* background: url(/background.svg); */
+  background-image: linear-gradient(90deg, rgb(251,254,241),rgb(221,191,105));
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right;
@@ -330,7 +331,8 @@ nav svg {
   min-height: 100vh;
   justify-content: center;
   align-items: center;
-  background-color: #f9fbf2;
+  /* background-color: #f9fbf2; */
+  background-image: linear-gradient(90deg, rgb(251,254,241),rgb(245, 94, 56));
 }
 .about .container {
   max-width: 1500px;
@@ -634,7 +636,7 @@ nav svg {
   width: 100%;
 }
 .team .container .team_container .card {
-  width: 25%;
+  width: 20%;
   padding: 20px;
   margin-bottom: 12px;
   display: flex;
@@ -857,7 +859,8 @@ footer .container .banner .right {
   padding: 30px 20px;
   justify-content: center;
   align-items: center;
-  background: url(/reserve.svg);
+  /* background: url(/reserve.svg); */
+  background-image: linear-gradient(90deg, rgb(251,254,241),rgb(115, 221, 105));
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right;
@@ -1047,7 +1050,8 @@ footer .container .banner .right {
   min-height: 100vh;
   justify-content: center;
   align-items: center;
-  background: url(/background.svg);
+  /* background: url(/background.svg); */
+  background-image: linear-gradient(90deg, rgb(251,254,241),rgb(221,191,105));
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right;
