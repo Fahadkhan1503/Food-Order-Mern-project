@@ -19,10 +19,20 @@ app.use(
 app.use(express.json());
 app.use(express.urlencoded({extended: true}));
 
+app.use('/api/v1/reservation', reservationRouter);
+
+app.get("/",(req,res, next)=>{
+    return res.status(200).json({
+        success:true,
+        message: "hello first",
+    });
+});
+
+
 dbConnection();
 
 app.use(express.json());
 app.use(errorMiddleware);
-app.use('/api/v1/reservation', reservationRouter);
+
 
 export default app;
